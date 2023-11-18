@@ -1,0 +1,44 @@
+@import "../src/mixins.scss";
+
+.main{
+    background-color: white;
+    padding:5px 5px;
+
+    .container{
+        width: 95%;        
+        height: fit-content;       
+        background-color:white;        
+        margin: 3rem 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;        
+        justify-content: flex-start;
+        align-items: center;
+        
+        .appointment-btn{
+            all: unset;
+            width: 80%;
+            padding: 1.5rem;
+            background-color: #3f66fa;
+            font-size: 1.3rem;
+            font-weight: 600;
+            letter-spacing:0.2px;
+            text-align: center;
+            color: white;
+            border-radius: 3rem;
+            margin-top: 1.2rem;
+            margin-bottom: 1.2rem;
+            cursor: pointer;
+
+           
+        
+        }
+        
+    }
+    
+
+}
+
+
+
+
+

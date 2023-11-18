@@ -1,0 +1,89 @@
+@import "../../mixins.scss";
+
+.container-home{
+    width: 95%;        
+    height: fit-content;       
+    background-color:white;        
+    margin: 3rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;        
+    justify-content: flex-start;
+    align-items: center;
+
+    h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .doc-image{
+        width: 100%;
+        height:25rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        outline: none;
+        .logo{
+            width: 3.2rem;
+            height: 3.2rem;
+            border-radius: 50%;
+            background-color: white;
+            color: #3f66fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -94%;
+            right: -83%;
+            
+        }
+        
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            border-top-left-radius: 3.5rem;
+            border-top-right-radius: 3.5rem;
+        }
+    }
+    .doc-name-review{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+        .doc-name-department{
+            display: flex;
+            flex-direction: column;
+            .doc-name{
+                font-size: 1.3rem;
+                font-weight: 600;
+                letter-spacing:0.2px;
+                margin-bottom: .3rem;
+            }
+            .department-name{
+                font-size: 1.1rem;
+                color: grey;
+                
+            }
+        }
+    }
+    .doc-review{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        .review-logo-container{
+            .review-logo{                
+                width: 1.7rem;
+                color: rgba(255,211,60,1);
+                position: relative;
+                top: -8px;
+            }
+        }           
+        .review{
+            font-size: 1rem;
+            font-weight: 600;
+            letter-spacing:0.2px;
+            
+        }
+    }
+}
